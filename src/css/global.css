@@ -1,0 +1,18 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+main{
+    min-height: 100vh;  /*ao contrario do px não e um valor absoluto*/
+    background-color: #dadfe8;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokedex{ /*. para estilizar uma classe*/
+   
+    display:flex;
+    gap: 30px;
+    padding: 30px 0; /*. espaçamento interno o margin é externo*/
+}

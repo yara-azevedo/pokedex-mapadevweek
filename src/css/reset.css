@@ -1,0 +1,9 @@
+*{ /*aplicado a todos os elementos */ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*encaixa o padding/margin dentro da box sem aumentar o tamanho dela */ 
+}
+
+ul{
+    list-style-type: none;
+}
