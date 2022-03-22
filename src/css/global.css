@@ -1,10 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif; 
+   
 }
 
 main{
     min-height: 100vh;  /*ao contrario do px não e um valor absoluto*/
-    background-color: #dadfe8;
+    background-color: rgb(7, 33, 42)
+    ;
     display:flex;
     align-items: center;
     justify-content: center;

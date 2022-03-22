@@ -1,5 +1,5 @@
 .cartao-pokemon{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /*https://getcssscan.com/css-box-shadow-examples*/
+    box-shadow: rgba(215, 215, 236, 0.2) 0px 7px 29px 0px; /*https://getcssscan.com/css-box-shadow-examples*/
     border-radius: 10px;
     display: none;
 }
@@ -38,17 +38,19 @@
 }
 
 .cartao-pokemon .cartao-informacoes{
-    background-color: #FFFFFF;
+    background-color: #2f2c2c;
     display: flex;
     justify-content: space-around;
     padding: 80px 30px 50px;
     margin-top: -70px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    
 }
 
 .cartao-pokemon .cartao-informacoes h3{
     font-size: 20px;
+    color: #e9d8d8; 
     margin-bottom: 15px;
     border-bottom: 1px solid #6b727a;
 }
@@ -63,6 +65,7 @@
     padding: 0 0  5px;
     margin-bottom: 5px;
     font-size: 15px;
+    color: #c5b2b2;
 }
 
 .cartao-pokemon.aberto{
